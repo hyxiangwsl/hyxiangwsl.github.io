@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hello Friend</title>
+    <link>/</link>
+    <description>Recent content on Hello Friend</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 02 Feb 2020 16:23:46 +0800</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>从0开始搭建ssr服务器(DigitalOcean)</title>
+      <link>/post/do%E6%90%AD%E5%BB%BAssr/</link>
+      <pubDate>Sun, 02 Feb 2020 16:23:46 +0800</pubDate>
+      
+      <guid>/post/do%E6%90%AD%E5%BB%BAssr/</guid>
+      <description>1.购买服务器 使用github学生包 学生认证可得到DO服务器50刀,大概能用一年，充值5刀进去，就能享受50刀 传送门 前提是要在github上先通过学生认证，充值5刀进你的DO账户，这一步请百度
+如果打不开网站，则需要在C:\Windows\System32\drivers\etc文件目录下的hosts文件下添加一行，用记事本或者notepad++打开
+199.27.79.249 cloud-cdn-digitalocean-com.global.ssl.fastly.net  购买服务器 选择自己熟悉的操作系统centos 选择最低配置5$每月 选择机房ip地址，可以先测速 测速地址 远程连接，通过ssh连接，添加一个ssh密钥，通过xshell的工具向导新建一个ssh密钥，把本地生成的密钥复制到框里就行 参考做法 这里填你的主机名字和标签 然后点击最底下的create droplets就可以了
+成功！
+2.使用xshell远程连接服务器 软件传送门 密码：lzuz 直接点击安装就可以了 刚开始连接会有是否接受密钥的弹出框，一致性接受就可以了，填写登录用户root,一个用户和密码,选择你在DO上添加的密钥，密码是写密钥的密码（用xshell新建密钥会叫你填写密码）然后就可以连接成功。
+3.搭建ssr加速 接下来就是安装 SS和SSR了 这里用的是逗比的兼容的脚本，如果没有 wget的话 先输入yum install -y wget
+wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/ssrmu.sh &amp;amp;&amp;amp; chmod +x ssrmu.sh &amp;amp;&amp;amp; bash ssrmu.sh  然后输入 1 回车安装 IP的话 回车就行 用户名自己取一个，然后端口也是随便一个 在 1~65535范围内就行，密码的话自己填，最后也复杂一点 加密我选的是aes-128-ctr协议,插件和混淆插件我都是选的第一个，限制连接的设备数自己选，限速也是，限制用的流量也自己填，然后一路回车等待安装完成 若出现上面的管理界面，输入数字1来安装SSR服务端。 使用sh ssr.sh快捷管理命令，再尝试
+接着就是打开SS或SSR复制连接进去 软件传送门 提取码：km08 也可以填写你服务器配置的信息 下面是BBRPlus的安装 (把下面的全部复制到xshell) 如果用的是Centos 必须使用7.x的版本 不支持6.x的版本
+wget -N --no-check-certificate &amp;quot;https://raw.</description>
+    </item>
+    
+    <item>
+      <title>Hello Friend</title>
+      <link>/post/hello/</link>
+      <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/hello/</guid>
+      <description> 这是我的第一篇博客,写在20200202,好幸运呀,竟然在千年一遇的对称日,搭建好了自己的博客.
+2020开头真的好难啊,有生之年遇到了这么严重的疫情
+武汉加油!
+都说万事开头难,今年开始决定走前端开发之路,刚好那就宅在家里面好好学习吧
+把之前放在csdn的博客都搬到这里来
+有一句很励志我的话,也放到博客上来吧
+&amp;ldquo;努力想得到什么东西，其实只要沉着镇静、实事求是，就可以轻易地、神不知鬼不觉地达到目的。 而如果过于使劲，闹得太凶，太幼稚，太没有经验，就哭啊，抓啊，拉啊，像一个小孩扯桌布，结果却是一无所获，只不过把桌上的好东西都扯到地上，永远也得不到了 &amp;ldquo;
+​ ——卡夫卡《城堡》
+ </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Hi there My name is Radek and I&amp;rsquo;m the author of this theme. I made it to help you present your ideas easier.
+We all know how hard is to start something on the web, especially these days. You need to prepare a bunch of stuff, configure them and when that’s done — create the content.
+This theme is pretty basic and covers all of the essentials. All you have to do is start typing!</description>
+    </item>
+    
+    <item>
+      <title>Showcase</title>
+      <link>/showcase/</link>
+      <pubDate>Fri, 18 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/showcase/</guid>
+      <description>Header 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec interdum metus. Aenean rutrum ligula sodales ex auctor, sed tempus dui mollis. Curabitur ipsum dui, aliquet nec commodo at, tristique eget ante. Donec quis dolor nec nunc mollis interdum vel in purus. Sed vitae leo scelerisque, sollicitudin elit sed, congue ante. In augue nisl, vestibulum commodo est a, tristique porttitor est. Proin laoreet iaculis ornare. Nullam ut neque quam.</description>
+    </item>
+    
+    <item>
+      <title>Archive</title>
+      <link>/archive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/archive/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
